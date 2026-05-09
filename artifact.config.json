@@ -1,0 +1,14 @@
+{
+  "processed_qa_file": "medquad_qa.jsonl",
+  "parsing_summary_file": "parsing_summary.json",
+  "vectorstore_zip_name": "vectorstore.zip",
+  "vectorstore_folder_name": "vectorstore",
+  "embedding_models": {
+    "minilm": "sentence-transformers/all-MiniLM-L6-v2",
+    "bge_small": "BAAI/bge-small-en-v1.5"
+  },
+  "chroma_collections": {
+    "minilm": "medquad_minilm",
+    "bge_small": "medquad_bge_small"
+  }
+}
