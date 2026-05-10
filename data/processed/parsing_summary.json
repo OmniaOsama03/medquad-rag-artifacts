@@ -1,0 +1,122 @@
+{
+  "total": {
+    "xml_files_scanned": 11274,
+    "documents": 11274,
+    "total_qa_pairs": 47441,
+    "valid_qa_pairs": 16407,
+    "skipped_empty_answers": 31034,
+    "skipped_empty_questions": 0,
+    "parse_errors": 0
+  },
+  "folders": {
+    "10_MPlus_ADAM_QA": {
+      "xml_files_scanned": 4366,
+      "documents": 4366,
+      "total_qa_pairs": 17348,
+      "valid_qa_pairs": 0,
+      "skipped_empty_answers": 17348,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "11_MPlusDrugs_QA": {
+      "xml_files_scanned": 1312,
+      "documents": 1312,
+      "total_qa_pairs": 12889,
+      "valid_qa_pairs": 0,
+      "skipped_empty_answers": 12889,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "12_MPlusHerbsSupplements_QA": {
+      "xml_files_scanned": 99,
+      "documents": 99,
+      "total_qa_pairs": 792,
+      "valid_qa_pairs": 0,
+      "skipped_empty_answers": 792,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "1_CancerGov_QA": {
+      "xml_files_scanned": 116,
+      "documents": 116,
+      "total_qa_pairs": 729,
+      "valid_qa_pairs": 729,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "2_GARD_QA": {
+      "xml_files_scanned": 2685,
+      "documents": 2685,
+      "total_qa_pairs": 5394,
+      "valid_qa_pairs": 5389,
+      "skipped_empty_answers": 5,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "3_GHR_QA": {
+      "xml_files_scanned": 1086,
+      "documents": 1086,
+      "total_qa_pairs": 5430,
+      "valid_qa_pairs": 5430,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "4_MPlus_Health_Topics_QA": {
+      "xml_files_scanned": 981,
+      "documents": 981,
+      "total_qa_pairs": 981,
+      "valid_qa_pairs": 981,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "5_NIDDK_QA": {
+      "xml_files_scanned": 157,
+      "documents": 157,
+      "total_qa_pairs": 1192,
+      "valid_qa_pairs": 1192,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "6_NINDS_QA": {
+      "xml_files_scanned": 277,
+      "documents": 277,
+      "total_qa_pairs": 1088,
+      "valid_qa_pairs": 1088,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "7_SeniorHealth_QA": {
+      "xml_files_scanned": 48,
+      "documents": 48,
+      "total_qa_pairs": 769,
+      "valid_qa_pairs": 769,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "8_NHLBI_QA_XML": {
+      "xml_files_scanned": 88,
+      "documents": 88,
+      "total_qa_pairs": 559,
+      "valid_qa_pairs": 559,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    },
+    "9_CDC_QA": {
+      "xml_files_scanned": 59,
+      "documents": 59,
+      "total_qa_pairs": 270,
+      "valid_qa_pairs": 270,
+      "skipped_empty_answers": 0,
+      "skipped_empty_questions": 0,
+      "parse_errors": 0
+    }
+  },
+  "output_file": "/content/medquad_healthcare_assistant_rag/data/processed/medquad_qa.jsonl"
+}

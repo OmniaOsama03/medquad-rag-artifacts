@@ -1,0 +1,44 @@
+[
+  {
+    "run_name": "no_rag",
+    "mode": "no_rag",
+    "retriever_model_key": null,
+    "top_k": 0
+  },
+  {
+    "run_name": "rag_minilm_k3",
+    "mode": "rag",
+    "retriever_model_key": "minilm",
+    "top_k": 3
+  },
+  {
+    "run_name": "rag_minilm_k5",
+    "mode": "rag",
+    "retriever_model_key": "minilm",
+    "top_k": 5
+  },
+  {
+    "run_name": "rag_minilm_k10",
+    "mode": "rag",
+    "retriever_model_key": "minilm",
+    "top_k": 10
+  },
+  {
+    "run_name": "rag_bge_small_k3",
+    "mode": "rag",
+    "retriever_model_key": "bge_small",
+    "top_k": 3
+  },
+  {
+    "run_name": "rag_bge_small_k5",
+    "mode": "rag",
+    "retriever_model_key": "bge_small",
+    "top_k": 5
+  },
+  {
+    "run_name": "rag_bge_small_k10",
+    "mode": "rag",
+    "retriever_model_key": "bge_small",
+    "top_k": 10
+  }
+]
