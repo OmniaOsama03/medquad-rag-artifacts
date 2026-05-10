@@ -1,14 +1,19 @@
 {
-  "processed_qa_file": "medquad_qa.jsonl",
-  "parsing_summary_file": "parsing_summary.json",
+  "project_name": "MedQuAD Healthcare Assistant RAG",
+  "vectorstore_release_url": "https://github.com/OmniaOsama03/medquad-rag-artifacts/releases/tag/v1.0",
   "vectorstore_zip_name": "vectorstore.zip",
-  "vectorstore_folder_name": "vectorstore",
-  "embedding_models": {
-    "minilm": "sentence-transformers/all-MiniLM-L6-v2",
-    "bge_small": "BAAI/bge-small-en-v1.5"
-  },
-  "chroma_collections": {
-    "minilm": "medquad_minilm",
-    "bge_small": "medquad_bge_small"
+  "vectorstore_dir_name": "vectorstore",
+  "default_retriever": "bge_small",
+  "default_top_k": 3,
+  "chat_model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "retrievers": {
+    "bge_small": {
+      "embedding_model_name": "BAAI/bge-small-en-v1.5",
+      "collection_name": "medquad_bge_small"
+    },
+    "minilm": {
+      "embedding_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "collection_name": "medquad_qa"
+    }
   }
 }
