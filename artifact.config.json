@@ -4,8 +4,8 @@
   "vectorstore_zip_name": "vectorstore.zip",
   "vectorstore_dir_name": "vectorstore",
   "default_retriever": "bge_small",
-  "default_top_k": 3,
-  "chat_model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "default_top_k": 10,
+  "chat_model_name": "Qwen/Qwen2.5-7B-Instruct",
   "retrievers": {
     "bge_small": {
       "embedding_model_name": "BAAI/bge-small-en-v1.5",
