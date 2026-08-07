@@ -3,9 +3,11 @@
     "xml_files_scanned": 11274,
     "documents": 11274,
     "total_qa_pairs": 47441,
-    "valid_qa_pairs": 16407,
+    "valid_qa_pairs": 16389,
     "skipped_empty_answers": 31034,
     "skipped_empty_questions": 0,
+    "skipped_topic_answer_mismatch": 4,
+    "skipped_missing_focus_or_malformed_record": 14,
     "parse_errors": 0
   },
   "folders": {
@@ -16,6 +18,8 @@
       "valid_qa_pairs": 0,
       "skipped_empty_answers": 17348,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "11_MPlusDrugs_QA": {
@@ -25,6 +29,8 @@
       "valid_qa_pairs": 0,
       "skipped_empty_answers": 12889,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "12_MPlusHerbsSupplements_QA": {
@@ -34,6 +40,8 @@
       "valid_qa_pairs": 0,
       "skipped_empty_answers": 792,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "1_CancerGov_QA": {
@@ -43,6 +51,8 @@
       "valid_qa_pairs": 729,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "2_GARD_QA": {
@@ -52,6 +62,8 @@
       "valid_qa_pairs": 5389,
       "skipped_empty_answers": 5,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "3_GHR_QA": {
@@ -61,6 +73,8 @@
       "valid_qa_pairs": 5430,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "4_MPlus_Health_Topics_QA": {
@@ -70,6 +84,8 @@
       "valid_qa_pairs": 981,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "5_NIDDK_QA": {
@@ -79,15 +95,19 @@
       "valid_qa_pairs": 1192,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "6_NINDS_QA": {
       "xml_files_scanned": 277,
       "documents": 277,
       "total_qa_pairs": 1088,
-      "valid_qa_pairs": 1088,
+      "valid_qa_pairs": 1084,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 4,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "7_SeniorHealth_QA": {
@@ -97,6 +117,8 @@
       "valid_qa_pairs": 769,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "8_NHLBI_QA_XML": {
@@ -106,15 +128,19 @@
       "valid_qa_pairs": 559,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 0,
       "parse_errors": 0
     },
     "9_CDC_QA": {
       "xml_files_scanned": 59,
       "documents": 59,
       "total_qa_pairs": 270,
-      "valid_qa_pairs": 270,
+      "valid_qa_pairs": 256,
       "skipped_empty_answers": 0,
       "skipped_empty_questions": 0,
+      "skipped_topic_answer_mismatch": 0,
+      "skipped_missing_focus_or_malformed_record": 14,
       "parse_errors": 0
     }
   },

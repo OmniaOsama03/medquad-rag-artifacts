@@ -9,19 +9,25 @@
     "expected_qtype": "prevention",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/Diabetes/diabetic-kidney-disease/Pages/index.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000033::0000033-9"
+    ]
   },
   {
     "question_id": "eval_0002",
-    "question": "What are the complications of Machado-Joseph Disease ?",
-    "reference_answer": "Lyme disease is caused by a bacterial organism that is transmitted to humans via the bite of an infected tick. Most people with Lyme disease develop a characteristic skin rash around the area of the bite. The rash may feel hot to the touch, and vary in size, shape, and color, but it will often have a \"bull's eye\" appearance (a red ring with a clear center). However, there are those who will not develop the rash, which can make Lyme disease hard to diagnose because its symptoms and signs mimic those of many other diseases. Anywhere from 7 to 14 days (or in some cases, 30 days) following an infected tick's bite, the first stage of Lyme disease may begin with flu-like symptoms such as fever, chills, swollen lymph nodes, headaches, fatigue, muscle aches, and joint pain. Neurological complications most often occur in the second stage of Lyme disease, with numbness, pain, weakness, Bell's palsy (paralysis of the facial muscles), visual disturbances, and meningitis symptoms such as fever, stiff neck, and severe headache. Other problems, which may not appear until weeks, months, or years after a tick bite, include decreased concentration, irritability, memory and sleep disorders, and nerve damage in the arms and legs.",
-    "expected_qa_uid": "6_NINDS_QA::0000187::0000187-1",
-    "expected_doc_uid": "6_NINDS_QA::0000187::0000187",
-    "expected_focus": "Machado-Joseph Disease",
+    "question": "What are the complications of Kidney Dysplasia ?",
+    "reference_answer": "The complications of kidney dysplasia can include - hydronephrosis of the working kidney. A baby with kidney dysplasia in only one kidney might have other urinary tract defects. When other defects in the urinary tract block the flow of urine, the urine backs up and causes the kidneys and ureters to swell, a condition called hydronephrosis. If left untreated, hydronephrosis can damage the working kidney and reduce its ability to filter blood. Kidney damage may lead to chronic kidney disease (CKD) and kidney failure. - a urinary tract infection (UTI). A urine blockage may increase a babys chance of developing a UTI. Recurring UTIs can also lead to kidney damage. - high blood pressure. - a slightly increased chance of developing kidney cancer. More information is provided in the NIDDK health topics, urine blockage in newbornsand UTIs in children.",
+    "expected_qa_uid": "5_NIDDK_QA::0000154::0000154-7",
+    "expected_doc_uid": "5_NIDDK_QA::0000154::0000154",
+    "expected_focus": "Kidney Dysplasia",
     "expected_qtype": "complications",
-    "source": "NINDS",
-    "url": "http://www.ninds.nih.gov/disorders/lyme/lyme.htm",
-    "folder": "6_NINDS_QA"
+    "source": "NIDDK",
+    "url": "http://www.niddk.nih.gov/health-information/health-topics/kidney-disease/kidney-dysplasia/Pages/facts.aspx",
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000154::0000154-7"
+    ]
   },
   {
     "question_id": "eval_0003",
@@ -33,7 +39,14 @@
     "expected_qtype": "information",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/rheumatoidarthritis/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000875::0000875-1",
+      "4_MPlus_Health_Topics_QA::0000782::0000782-1",
+      "7_SeniorHealth_QA::0000061::0000061-1",
+      "7_SeniorHealth_QA::0000061::0000061-15",
+      "7_SeniorHealth_QA::0000061::0000061-7"
+    ]
   },
   {
     "question_id": "eval_0004",
@@ -45,7 +58,11 @@
     "expected_qtype": "inheritance",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2837/familial-isolated-hyperparathyroidism",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002274::0002274-3",
+      "3_GHR_QA::0000357::0000357-4"
+    ]
   },
   {
     "question_id": "eval_0005",
@@ -57,7 +74,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/giant-congenital-melanocytic-nevus",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000406::0000406-3"
+    ]
   },
   {
     "question_id": "eval_0006",
@@ -69,7 +89,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/diastrophic-dysplasia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000284::0000284-4"
+    ]
   },
   {
     "question_id": "eval_0007",
@@ -81,7 +104,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/glucose-phosphate-isomerase-deficiency",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000412::0000412-4"
+    ]
   },
   {
     "question_id": "eval_0008",
@@ -93,7 +119,10 @@
     "expected_qtype": "causes",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/1340/chromosome-4q-deletion",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001282::0001282-3"
+    ]
   },
   {
     "question_id": "eval_0009",
@@ -105,7 +134,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/x-linked-lymphoproliferative-disease",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0001059::0001059-1"
+    ]
   },
   {
     "question_id": "eval_0010",
@@ -117,7 +149,10 @@
     "expected_qtype": "prevention",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/lung/patient/lung-prevention-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000032_3::0000032_3-2"
+    ]
   },
   {
     "question_id": "eval_0011",
@@ -129,7 +164,23 @@
     "expected_qtype": "information",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/medicareandcontinuingcare/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000045::0000045-10",
+      "7_SeniorHealth_QA::0000045::0000045-11",
+      "7_SeniorHealth_QA::0000045::0000045-12",
+      "7_SeniorHealth_QA::0000045::0000045-13",
+      "7_SeniorHealth_QA::0000045::0000045-14",
+      "7_SeniorHealth_QA::0000045::0000045-16",
+      "7_SeniorHealth_QA::0000045::0000045-18",
+      "7_SeniorHealth_QA::0000045::0000045-20",
+      "7_SeniorHealth_QA::0000045::0000045-22",
+      "7_SeniorHealth_QA::0000045::0000045-24",
+      "7_SeniorHealth_QA::0000045::0000045-28",
+      "7_SeniorHealth_QA::0000045::0000045-7",
+      "7_SeniorHealth_QA::0000045::0000045-8",
+      "7_SeniorHealth_QA::0000045::0000045-9"
+    ]
   },
   {
     "question_id": "eval_0012",
@@ -141,7 +192,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/cog5-congenital-disorder-of-glycosylation",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000197::0000197-1"
+    ]
   },
   {
     "question_id": "eval_0013",
@@ -153,7 +207,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/9689/congenital-myasthenic-syndrome-with-episodic-apnea",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001542::0001542-1"
+    ]
   },
   {
     "question_id": "eval_0014",
@@ -165,7 +222,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/73/immunodeficiency-with-hyper-igm-type-1",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003162::0003162-4"
+    ]
   },
   {
     "question_id": "eval_0015",
@@ -177,7 +237,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/mucopolysaccharidosis-type-vi",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000682::0000682-2"
+    ]
   },
   {
     "question_id": "eval_0016",
@@ -189,7 +252,11 @@
     "expected_qtype": "considerations",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/urologic-disease/perineal-injury-in-males/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000206::0000206-10",
+      "5_NIDDK_QA::0000206::0000206-11"
+    ]
   },
   {
     "question_id": "eval_0017",
@@ -201,7 +268,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/sialuria",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000909::0000909-3"
+    ]
   },
   {
     "question_id": "eval_0018",
@@ -213,7 +283,10 @@
     "expected_qtype": "research",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/head-and-neck/patient/oropharyngeal-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000024_6::0000024_6-8"
+    ]
   },
   {
     "question_id": "eval_0019",
@@ -225,7 +298,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/8421/pallister-killian-mosaic-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004688::0004688-1",
+      "3_GHR_QA::0000768::0000768-1"
+    ]
   },
   {
     "question_id": "eval_0020",
@@ -237,7 +314,11 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10335/mucopolysaccharidosis-type-i",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004155::0004155-5",
+      "3_GHR_QA::0000678::0000678-5"
+    ]
   },
   {
     "question_id": "eval_0021",
@@ -249,7 +330,12 @@
     "expected_qtype": "research",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/prostate/patient/prostate-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000036_1::0000036_1-7",
+      "1_CancerGov_QA::0000036_2::0000036_2-5",
+      "7_SeniorHealth_QA::0000058::0000058-7"
+    ]
   },
   {
     "question_id": "eval_0022",
@@ -261,7 +347,10 @@
     "expected_qtype": "symptoms",
     "source": "NHLBI",
     "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/hpl",
-    "folder": "8_NHLBI_QA_XML"
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "8_NHLBI_QA_XML::0000063::0000063-4"
+    ]
   },
   {
     "question_id": "eval_0023",
@@ -273,7 +362,11 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/aicardi-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000028::0000028-5",
+      "6_NINDS_QA::0000011::0000011-2"
+    ]
   },
   {
     "question_id": "eval_0024",
@@ -285,7 +378,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/fires.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000365::0000365-1"
+    ]
   },
   {
     "question_id": "eval_0025",
@@ -297,7 +393,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/11901/juvenile-amyotrophic-lateral-sclerosis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003319::0003319-4"
+    ]
   },
   {
     "question_id": "eval_0026",
@@ -309,7 +408,10 @@
     "expected_qtype": "causes",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/1467/congenital-adrenal-hyperplasia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001472::0001472-3"
+    ]
   },
   {
     "question_id": "eval_0027",
@@ -321,7 +423,11 @@
     "expected_qtype": "considerations",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/gastroparesis/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000107::0000107-6",
+      "5_NIDDK_QA::0000107::0000107-9"
+    ]
   },
   {
     "question_id": "eval_0028",
@@ -333,7 +439,10 @@
     "expected_qtype": "susceptibility",
     "source": "NHLBI",
     "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/ards",
-    "folder": "8_NHLBI_QA_XML"
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "8_NHLBI_QA_XML::0000007::0000007-4"
+    ]
   },
   {
     "question_id": "eval_0029",
@@ -345,7 +454,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/deafness-dystonia-optic-neuronopathy-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000274::0000274-1"
+    ]
   },
   {
     "question_id": "eval_0030",
@@ -357,7 +469,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/benign-chronic-pemphigus",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000115::0000115-1"
+    ]
   },
   {
     "question_id": "eval_0031",
@@ -369,7 +484,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6570/hashimotos-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002736::0002736-1"
+    ]
   },
   {
     "question_id": "eval_0032",
@@ -381,7 +499,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/1251/charcot-marie-tooth-disease-type-2d",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001102::0001102-1"
+    ]
   },
   {
     "question_id": "eval_0033",
@@ -393,7 +514,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/3909/nadh-cytochrome-b5-reductase-deficiency",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004302::0004302-1"
+    ]
   },
   {
     "question_id": "eval_0034",
@@ -405,7 +529,10 @@
     "expected_qtype": "treatment",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/dementias/dementia.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000098::0000098-2"
+    ]
   },
   {
     "question_id": "eval_0035",
@@ -417,7 +544,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2946/ichthyosiform-erythroderma-corneal-involvement-deafness",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003105::0003105-1"
+    ]
   },
   {
     "question_id": "eval_0036",
@@ -429,7 +559,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10886/frontal-fibrosing-alopecia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002442::0002442-6"
+    ]
   },
   {
     "question_id": "eval_0037",
@@ -441,7 +574,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/calcium.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000139::0000139-1"
+    ]
   },
   {
     "question_id": "eval_0038",
@@ -453,7 +589,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/smokelesstobacco.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000827::0000827-1"
+    ]
   },
   {
     "question_id": "eval_0039",
@@ -465,7 +604,10 @@
     "expected_qtype": "outlook",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/tropical_spastic_paraparesis/tropical_spastic_paraparesis.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000151::0000151-3"
+    ]
   },
   {
     "question_id": "eval_0040",
@@ -477,7 +619,10 @@
     "expected_qtype": "information",
     "source": "CDC",
     "url": "http://www.cdc.gov/parasites/angiostrongylus/",
-    "folder": "9_CDC_QA"
+    "folder": "9_CDC_QA",
+    "relevant_qa_uids": [
+      "9_CDC_QA::0000015::0000015-2"
+    ]
   },
   {
     "question_id": "eval_0041",
@@ -489,7 +634,11 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/cystic-fibrosis",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000262::0000262-5",
+      "8_NHLBI_QA_XML::0000049::0000049-7"
+    ]
   },
   {
     "question_id": "eval_0042",
@@ -501,7 +650,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6897/leukoplakia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003580::0003580-3"
+    ]
   },
   {
     "question_id": "eval_0043",
@@ -513,7 +665,10 @@
     "expected_qtype": "causes",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/182/best-vitelliform-macular-dystrophy",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000700::0000700-3"
+    ]
   },
   {
     "question_id": "eval_0044",
@@ -525,7 +680,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10237/biotin-thiamine-responsive-basal-ganglia-disease",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000736::0000736-2"
+    ]
   },
   {
     "question_id": "eval_0045",
@@ -537,7 +695,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/x-linked-thrombocytopenia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0001065::0001065-2"
+    ]
   },
   {
     "question_id": "eval_0046",
@@ -549,7 +710,10 @@
     "expected_qtype": "outlook",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/diabetic/diabetic.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000106::0000106-3"
+    ]
   },
   {
     "question_id": "eval_0047",
@@ -561,7 +725,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/multiple-sulfatase-deficiency",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000695::0000695-3"
+    ]
   },
   {
     "question_id": "eval_0048",
@@ -573,7 +740,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2192/erythroderma-lethal-congenital",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002160::0002160-1"
+    ]
   },
   {
     "question_id": "eval_0049",
@@ -585,7 +755,10 @@
     "expected_qtype": "outlook",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/lesch_nyhan/lesch_nyhan.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000180::0000180-3"
+    ]
   },
   {
     "question_id": "eval_0050",
@@ -597,7 +770,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/multiple-system-atrophy",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000696::0000696-4"
+    ]
   },
   {
     "question_id": "eval_0051",
@@ -609,7 +785,10 @@
     "expected_qtype": "symptoms",
     "source": "NHLBI",
     "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/arm",
-    "folder": "8_NHLBI_QA_XML"
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "8_NHLBI_QA_XML::0000003::0000003-6"
+    ]
   },
   {
     "question_id": "eval_0052",
@@ -621,7 +800,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2293/fetal-akinesia-syndrome-x-linked",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002334::0002334-1"
+    ]
   },
   {
     "question_id": "eval_0053",
@@ -633,7 +815,12 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7737/tay-sachs-disease",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006017::0006017-5",
+      "3_GHR_QA::0000972::0000972-5",
+      "6_NINDS_QA::0000265::0000265-2"
+    ]
   },
   {
     "question_id": "eval_0054",
@@ -645,7 +832,11 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/nephrogenic-diabetes-insipidus",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004342::0004342-1",
+      "3_GHR_QA::0000719::0000719-1"
+    ]
   },
   {
     "question_id": "eval_0055",
@@ -657,7 +848,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/thyroiddiseases.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000892::0000892-1"
+    ]
   },
   {
     "question_id": "eval_0056",
@@ -669,7 +863,10 @@
     "expected_qtype": "information",
     "source": "CDC",
     "url": "http://www.cdc.gov/parasites/cyclosporiasis/",
-    "folder": "9_CDC_QA"
+    "folder": "9_CDC_QA",
+    "relevant_qa_uids": [
+      "9_CDC_QA::0000120::0000120-1"
+    ]
   },
   {
     "question_id": "eval_0057",
@@ -681,7 +878,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/leukoencephalopathy-with-brainstem-and-spinal-cord-involvement-and-lactate-elevation",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000597::0000597-4"
+    ]
   },
   {
     "question_id": "eval_0058",
@@ -693,7 +893,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/4582/congenital-pulmonary-alveolar-proteinosis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001551::0001551-1"
+    ]
   },
   {
     "question_id": "eval_0059",
@@ -705,7 +908,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/smoking.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000828::0000828-1"
+    ]
   },
   {
     "question_id": "eval_0060",
@@ -717,19 +923,25 @@
     "expected_qtype": "exams and tests",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/parathyroid/patient/parathyroid-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000033_1::0000033_1-4"
+    ]
   },
   {
     "question_id": "eval_0061",
-    "question": "how can the spread of visa and vrsa be prevented?",
-    "reference_answer": "On this Page General Information about VISA/VRSA What is Staphylococcus aureus? How do VISA and VRSA get their names? What should a patient do if they suspect they have a Staph, MRSA, VISA, or VRSA infection? Are VISA and VRSA infections treatable? How can the spread of VISA and VRSA be prevented? What should a person do if a family member or close friend has VISA or VRSA? What is CDC doing to address VISA and VRSA? Recommendations and Guidelines General Information about VISA/VRSA For more images of this bacterium, search the Public Health Image Library Vancomycin [van−kō−mī−sin]-intermediate Staphylococcus aureus [staff−u−lu−kaw−kus aw−ree−us] (also called VISA) and Vancomycin-resistant Staphylococcus aureus (also called VRSA) are specific types of antimicrobial-resistant bacteria. However, as of October 2010, all VISA and VRSA isolates have been susceptible to other Food and Drug Administration (FDA)-approved drugs. Persons who develop this type of staph infection may have underlying health conditions (such as diabetes and kidney disease), tubes going into their bodies (such as catheters), previous infections with methicillin-resistant Staphylococcus aureus (MRSA), and recent exposure to vancomycin and other antimicrobial agents. What is Staphylococcus aureus? Staphylococcus aureus is a bacterium commonly found on the skin and in the nose of about 30% of individuals. Most of the time, staph does not cause any harm. These infections can look like pimples, boils, or other skin conditions and most are able to be treated. Sometimes staph bacteria can get into the bloodstream and cause serious infections which can be fatal, including: Bacteremia or sepsis when bacteria spread to the bloodstream usually as a result of using catheters or having surgery. Pneumonia which predominantly affects people with underlying lung disease including those on mechanical ventilators. Endocarditis (infection of the heart valves) which can lead to heart failure. Osteomyelitis (bone infection) which can be caused by staph bacteria traveling in the bloodstream or put there by direct contact such as following trauma (puncture wound of foot or intravenous (IV) drug abuse). Top of page How do VISA and VRSA get their names? Staph bacteria are classified as VISA or VRSA based on laboratory tests. Laboratories perform tests to determine if staph bacteria are resistant to antimicrobial agents that might be used for treatment of infections. For vancomycin and other antimicrobial agents, laboratories determine how much of the agent it requires to inhibit the growth of the organism in a test tube. The result of the test is usually expressed as a minimum inhibitory concentration (MIC) or the minimum amount of antimicrobial agent that inhibits bacterial growth in the test tube. Therefore, staph bacteria are classified as VISA if the MIC for vancomycin is 4-8µg/ml, and classified as VRSA if the vancomycin MIC is ≥16µg/ml. Top of page What should a patient do if they suspect they have a staph, MRSA, VISA, or VRSA infection? See a healthcare provider. Top of page Are VISA and VRSA infections treatable? Yes. As of October 2010, all VISA and VRSA isolates have been susceptible to several Food and Drug Administration (FDA)-approved drugs. Top of page How can the spread of VISA and VRSA be prevented? Use of appropriate infection control practices (such as wearing gloves before and after contact with infectious body substances and adherence to hand hygiene) by healthcare personnel can reduce the spread of VISA and VRSA. Top of page What should a person do if a family member or close friend has VISA or VRSA? VISA and VRSA are types of antibiotic-resistant staph bacteria. Therefore, as with all staph bacteria, spread occurs among people having close physical contact with infected patients or contaminated material, such as bandages. Persons having close physical contact with infected patients while they are outside of the healthcare setting should: (1) keep their hands clean by washing thoroughly with soap and water, and (2) avoid contact with other people's wounds or material contaminated from wounds. If they go to the hospital to visit a friend or family member who is infected with VISA or VRSA , they must follow the hospital's recommended precautions. Top of page What is CDC doing to address VISA and VRSA? In addition to providing guidance for clinicians and infection control personnel, CDC is also working with state and local health agencies, healthcare facilities, and clinical microbiology laboratories to ensure that laboratories are using proper methods to detect VISA and VRSA. Top of page Recommendations and Guidelines CDC issued a Clinical Reminder, in 2010, which serves as a reminder about the important role of clinical laboratories in the diagnosis of VRSA cases to ensure prompt recognition, isolation, and management by infection control personnel. Investigation and Control of Vancomycin-Resistant Staphylococcus aureus (VRSA) [PDF - 300 KB] - This document is a guide to conducting a public health investigation of patients from whom vancomycin-resistant Staphylococcus aureus (VRSA, vancomycin MIC ≥ 16 µg/ml) has been isolated. The information reflects the experience gained from field investigations of the first fourteen VRSA identified in the United States. Top of page",
-    "expected_qa_uid": "9_CDC_QA::0000423::0000423-6",
-    "expected_doc_uid": "9_CDC_QA::0000423::0000423",
-    "expected_focus": "",
+    "question": "How to prevent Heart Palpitations ?",
+    "reference_answer": "You can take steps to prevent palpitations. Try to avoid things that trigger them. For example: Reduce anxiety and stress. Anxiety and stress (including panic attacks) are a common cause of harmless palpitations. Relaxation exercises, yoga or tai chi, biofeedback or guided imagery, or aromatherapy may help you relax. Avoid or limit stimulants, such as caffeine, nicotine, or alcohol. Avoid illegal drugs, such as cocaine and amphetamines. Avoid medicines that act as stimulants, such as cough and cold medicines and some herbal and nutritional supplements. Also, work with your doctor to treat medical conditions that can cause palpitations.",
+    "expected_qa_uid": "8_NHLBI_QA_XML::0000063::0000063-7",
+    "expected_doc_uid": "8_NHLBI_QA_XML::0000063::0000063",
+    "expected_focus": "Heart Palpitations",
     "expected_qtype": "prevention",
-    "source": "CDC",
-    "url": "http://www.cdc.gov/HAI/organisms/visa_vrsa/visa_vrsa.html",
-    "folder": "9_CDC_QA"
+    "source": "NHLBI",
+    "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/hpl",
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "8_NHLBI_QA_XML::0000063::0000063-7"
+    ]
   },
   {
     "question_id": "eval_0062",
@@ -741,7 +953,11 @@
     "expected_qtype": "information",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/dravet_syndrome/dravet_syndrome.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001924::0001924-1",
+      "6_NINDS_QA::0000108::0000108-1"
+    ]
   },
   {
     "question_id": "eval_0063",
@@ -753,7 +969,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/12328/hereditary-sensory-and-autonomic-neuropathy-type-v",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002852::0002852-1",
+      "3_GHR_QA::0000474::0000474-1"
+    ]
   },
   {
     "question_id": "eval_0064",
@@ -765,7 +985,10 @@
     "expected_qtype": "causes",
     "source": "NHLBI",
     "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/angina",
-    "folder": "8_NHLBI_QA_XML"
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "8_NHLBI_QA_XML::0000004::0000004-3"
+    ]
   },
   {
     "question_id": "eval_0065",
@@ -777,7 +1000,10 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/gm3-synthase-deficiency",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000431::0000431-5"
+    ]
   },
   {
     "question_id": "eval_0066",
@@ -789,7 +1015,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10525/15q112-microdeletion",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006554::0006554-1"
+    ]
   },
   {
     "question_id": "eval_0067",
@@ -801,7 +1030,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/4987/spondyloepiphyseal-dysplasia-congenita",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005840::0005840-1",
+      "3_GHR_QA::0000947::0000947-1"
+    ]
   },
   {
     "question_id": "eval_0068",
@@ -813,7 +1046,11 @@
     "expected_qtype": "treatment",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/hearingloss/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000032::0000032-22",
+      "7_SeniorHealth_QA::0000032::0000032-4"
+    ]
   },
   {
     "question_id": "eval_0069",
@@ -825,7 +1062,11 @@
     "expected_qtype": "information",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/abdominal-adhesions/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000083::0000083-1",
+      "5_NIDDK_QA::0000083::0000083-2"
+    ]
   },
   {
     "question_id": "eval_0070",
@@ -837,7 +1078,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/anencephaly",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000057::0000057-3"
+    ]
   },
   {
     "question_id": "eval_0071",
@@ -849,7 +1093,10 @@
     "expected_qtype": "exams and tests",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6920/loin-pain-hematuria-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003662::0003662-4"
+    ]
   },
   {
     "question_id": "eval_0072",
@@ -861,7 +1108,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/early-onset-primary-dystonia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000312::0000312-2"
+    ]
   },
   {
     "question_id": "eval_0073",
@@ -873,7 +1123,10 @@
     "expected_qtype": "inheritance",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2553/gordon-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002652::0002652-3"
+    ]
   },
   {
     "question_id": "eval_0074",
@@ -885,7 +1138,10 @@
     "expected_qtype": "stages",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/leukemia/patient/child-aml-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000001_7::0000001_7-6"
+    ]
   },
   {
     "question_id": "eval_0075",
@@ -897,7 +1153,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/nonsyndromic-aplasia-cutis-congenita",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000734::0000734-3"
+    ]
   },
   {
     "question_id": "eval_0076",
@@ -909,7 +1168,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/lattice-corneal-dystrophy-type-i",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000585::0000585-2"
+    ]
   },
   {
     "question_id": "eval_0077",
@@ -921,7 +1183,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/4520/familial-prostate-cancer",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002295::0002295-2"
+    ]
   },
   {
     "question_id": "eval_0078",
@@ -933,7 +1198,12 @@
     "expected_qtype": "information",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/lennoxgastautsyndrome/lennoxgastautsyndrome.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003541::0003541-1",
+      "3_GHR_QA::0000592::0000592-1",
+      "6_NINDS_QA::0000179::0000179-1"
+    ]
   },
   {
     "question_id": "eval_0079",
@@ -945,7 +1215,10 @@
     "expected_qtype": "information",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/pdd/pdd.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000231::0000231-1"
+    ]
   },
   {
     "question_id": "eval_0080",
@@ -957,7 +1230,13 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/depression.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000264::0000264-1",
+      "7_SeniorHealth_QA::0000014::0000014-1",
+      "7_SeniorHealth_QA::0000014::0000014-10",
+      "7_SeniorHealth_QA::0000014::0000014-12"
+    ]
   },
   {
     "question_id": "eval_0081",
@@ -969,7 +1248,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10085/klebsiella-infection",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003396::0003396-1"
+    ]
   },
   {
     "question_id": "eval_0082",
@@ -981,7 +1263,10 @@
     "expected_qtype": "frequency",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/urologic-disease/urinary-tract-infections-in-adults/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000214::0000214-4"
+    ]
   },
   {
     "question_id": "eval_0083",
@@ -993,7 +1278,11 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/abetalipoproteinemia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000011::0000011-1",
+      "3_GHR_QA::0000003::0000003-1"
+    ]
   },
   {
     "question_id": "eval_0084",
@@ -1005,7 +1294,10 @@
     "expected_qtype": "treatment",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/diarrhea/Pages/ez.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000127::0000127-7"
+    ]
   },
   {
     "question_id": "eval_0085",
@@ -1017,7 +1309,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10310/autoimmune-atrophic-gastritis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000530::0000530-2"
+    ]
   },
   {
     "question_id": "eval_0086",
@@ -1029,7 +1324,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/8333/athabaskan-brainstem-dysgenesis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000501::0000501-1"
+    ]
   },
   {
     "question_id": "eval_0087",
@@ -1041,7 +1339,12 @@
     "expected_qtype": "exams and tests",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/alzheimersdisease/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000004::0000004-20",
+      "7_SeniorHealth_QA::0000004::0000004-21",
+      "7_SeniorHealth_QA::0000004::0000004-22"
+    ]
   },
   {
     "question_id": "eval_0088",
@@ -1053,7 +1356,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/familial-hemiplegic-migraine",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000351::0000351-4"
+    ]
   },
   {
     "question_id": "eval_0089",
@@ -1065,7 +1371,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/11897/cone-dystrophy",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001459::0001459-2"
+    ]
   },
   {
     "question_id": "eval_0090",
@@ -1077,7 +1386,10 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/gorlin-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000433::0000433-5"
+    ]
   },
   {
     "question_id": "eval_0091",
@@ -1089,7 +1401,13 @@
     "expected_qtype": "research",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/skincancer/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000028_1::0000028_1-7",
+      "1_CancerGov_QA::0000028_4::0000028_4-4",
+      "7_SeniorHealth_QA::0000063::0000063-30",
+      "7_SeniorHealth_QA::0000063::0000063-8"
+    ]
   },
   {
     "question_id": "eval_0092",
@@ -1101,7 +1419,10 @@
     "expected_qtype": "research",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/iniencephaly/Iniencephaly.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000164::0000164-4"
+    ]
   },
   {
     "question_id": "eval_0093",
@@ -1113,7 +1434,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/bedbugs.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000083::0000083-1"
+    ]
   },
   {
     "question_id": "eval_0094",
@@ -1125,7 +1449,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/3387/marfanoid-hypermobility-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003802::0003802-1"
+    ]
   },
   {
     "question_id": "eval_0095",
@@ -1137,7 +1464,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/hereditary-sensory-neuropathy-type-ia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000475::0000475-3"
+    ]
   },
   {
     "question_id": "eval_0096",
@@ -1149,7 +1479,15 @@
     "expected_qtype": "information",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/heartfailure/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000446::0000446-1",
+      "7_SeniorHealth_QA::0000034::0000034-1",
+      "7_SeniorHealth_QA::0000034::0000034-11",
+      "7_SeniorHealth_QA::0000034::0000034-17",
+      "7_SeniorHealth_QA::0000034::0000034-24",
+      "8_NHLBI_QA_XML::0000061::0000061-1"
+    ]
   },
   {
     "question_id": "eval_0097",
@@ -1161,7 +1499,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/fragile-x-associated-primary-ovarian-insufficiency",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000382::0000382-1"
+    ]
   },
   {
     "question_id": "eval_0098",
@@ -1173,7 +1514,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/5926/birdshot-chorioretinopathy",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000738::0000738-2"
+    ]
   },
   {
     "question_id": "eval_0099",
@@ -1185,7 +1529,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7876/warm-antibody-hemolytic-anemia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006400::0006400-2"
+    ]
   },
   {
     "question_id": "eval_0100",
@@ -1197,7 +1544,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/9279/glutamate-formiminotransferase-deficiency",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002601::0002601-1",
+      "3_GHR_QA::0000416::0000416-1"
+    ]
   },
   {
     "question_id": "eval_0101",
@@ -1209,7 +1560,10 @@
     "expected_qtype": "outlook",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/eye/patient/intraocular-melanoma-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000017_1::0000017_1-5"
+    ]
   },
   {
     "question_id": "eval_0102",
@@ -1221,7 +1575,13 @@
     "expected_qtype": "information",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/rett/rett.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005347::0005347-1",
+      "3_GHR_QA::0000874::0000874-1",
+      "4_MPlus_Health_Topics_QA::0000779::0000779-1",
+      "6_NINDS_QA::0000247::0000247-1"
+    ]
   },
   {
     "question_id": "eval_0103",
@@ -1233,7 +1593,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/lactose-intolerance",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000573::0000573-2"
+    ]
   },
   {
     "question_id": "eval_0104",
@@ -1245,7 +1608,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/4046/oculomaxillofacial-dysostosis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004511::0004511-1"
+    ]
   },
   {
     "question_id": "eval_0105",
@@ -1257,7 +1623,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/familial-cold-autoinflammatory-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000342::0000342-3"
+    ]
   },
   {
     "question_id": "eval_0106",
@@ -1269,7 +1638,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/glut1-deficiency-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000415::0000415-1"
+    ]
   },
   {
     "question_id": "eval_0107",
@@ -1281,7 +1653,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/5181/thoraco-abdominal-enteric-duplication",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006070::0006070-1"
+    ]
   },
   {
     "question_id": "eval_0108",
@@ -1293,7 +1668,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/legionnairesdisease.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000552::0000552-1"
+    ]
   },
   {
     "question_id": "eval_0109",
@@ -1305,7 +1683,10 @@
     "expected_qtype": "research",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/diabeticretinopathy/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000016::0000016-21"
+    ]
   },
   {
     "question_id": "eval_0110",
@@ -1317,7 +1698,10 @@
     "expected_qtype": "information",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/liver/patient/adult-liver-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000007_1::0000007_1-1"
+    ]
   },
   {
     "question_id": "eval_0111",
@@ -1329,7 +1713,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/brainaneurysm.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000124::0000124-1"
+    ]
   },
   {
     "question_id": "eval_0112",
@@ -1341,7 +1728,10 @@
     "expected_qtype": "treatment",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/picks/picks.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000100::0000100-2"
+    ]
   },
   {
     "question_id": "eval_0113",
@@ -1353,7 +1743,12 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/5808/anencephaly",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000341::0000341-1",
+      "3_GHR_QA::0000057::0000057-1",
+      "6_NINDS_QA::0000019::0000019-1"
+    ]
   },
   {
     "question_id": "eval_0114",
@@ -1365,7 +1760,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10167/joubert-syndrome-2",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003309::0003309-1"
+    ]
   },
   {
     "question_id": "eval_0115",
@@ -1377,7 +1775,10 @@
     "expected_qtype": "information",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/cerebellar_hypoplasia/cerebellar_hypoplasia.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000067::0000067-1"
+    ]
   },
   {
     "question_id": "eval_0116",
@@ -1389,7 +1790,10 @@
     "expected_qtype": "inheritance",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6130/cold-agglutinin-disease",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001415::0001415-4"
+    ]
   },
   {
     "question_id": "eval_0117",
@@ -1401,7 +1805,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2392/frontonasal-dysplasia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002446::0002446-1",
+      "3_GHR_QA::0000390::0000390-1"
+    ]
   },
   {
     "question_id": "eval_0118",
@@ -1413,7 +1821,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/col4a1-related-brain-small-vessel-disease",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000199::0000199-4"
+    ]
   },
   {
     "question_id": "eval_0119",
@@ -1425,7 +1836,10 @@
     "expected_qtype": "causes",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/kidney-disease/polycystic-kidney-disease-pkd/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000167::0000167-2"
+    ]
   },
   {
     "question_id": "eval_0120",
@@ -1437,7 +1851,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/x-linked-dystonia-parkinsonism",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0001051::0001051-4"
+    ]
   },
   {
     "question_id": "eval_0121",
@@ -1449,7 +1866,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/5372/troyer-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006224::0006224-2"
+    ]
   },
   {
     "question_id": "eval_0122",
@@ -1461,7 +1881,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7223/noonan-syndrome-1",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004451::0004451-3"
+    ]
   },
   {
     "question_id": "eval_0123",
@@ -1473,7 +1896,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10975/familial-hemiplegic-migraine",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002254::0002254-1",
+      "3_GHR_QA::0000351::0000351-1"
+    ]
   },
   {
     "question_id": "eval_0124",
@@ -1485,7 +1912,10 @@
     "expected_qtype": "symptoms",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/kidney-disease/goodpasture-syndrome/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000145::0000145-3"
+    ]
   },
   {
     "question_id": "eval_0125",
@@ -1497,7 +1927,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/12811/multisystemic-smooth-muscle-dysfunction-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004212::0004212-2"
+    ]
   },
   {
     "question_id": "eval_0126",
@@ -1509,7 +1942,10 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/hereditary-myopathy-with-early-respiratory-failure",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000467::0000467-5"
+    ]
   },
   {
     "question_id": "eval_0127",
@@ -1521,7 +1957,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/brugada-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000140::0000140-3"
+    ]
   },
   {
     "question_id": "eval_0128",
@@ -1533,7 +1972,10 @@
     "expected_qtype": "information",
     "source": "CDC",
     "url": "http://www.cdc.gov/parasites/lice/pubic/",
-    "folder": "9_CDC_QA"
+    "folder": "9_CDC_QA",
+    "relevant_qa_uids": [
+      "9_CDC_QA::0000339::0000339-1"
+    ]
   },
   {
     "question_id": "eval_0129",
@@ -1545,7 +1987,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/5816/aniridia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000362::0000362-2"
+    ]
   },
   {
     "question_id": "eval_0130",
@@ -1557,7 +2002,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6582/hemifacial-microsomia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002760::0002760-2"
+    ]
   },
   {
     "question_id": "eval_0131",
@@ -1569,7 +2017,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/farmhealthandsafety.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000354::0000354-1"
+    ]
   },
   {
     "question_id": "eval_0132",
@@ -1581,7 +2032,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/legius-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000590::0000590-1"
+    ]
   },
   {
     "question_id": "eval_0133",
@@ -1593,7 +2047,15 @@
     "expected_qtype": "information",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/diabeticretinopathy/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000016::0000016-1",
+      "7_SeniorHealth_QA::0000016::0000016-13",
+      "7_SeniorHealth_QA::0000016::0000016-17",
+      "7_SeniorHealth_QA::0000016::0000016-26",
+      "7_SeniorHealth_QA::0000016::0000016-6",
+      "7_SeniorHealth_QA::0000016::0000016-7"
+    ]
   },
   {
     "question_id": "eval_0134",
@@ -1605,7 +2067,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/ozone.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000677::0000677-1"
+    ]
   },
   {
     "question_id": "eval_0135",
@@ -1617,7 +2082,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7161/nance-horan-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004310::0004310-1"
+    ]
   },
   {
     "question_id": "eval_0136",
@@ -1629,7 +2097,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/9597/postural-orthostatic-tachycardia-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005004::0005004-6"
+    ]
   },
   {
     "question_id": "eval_0137",
@@ -1641,7 +2112,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/bart-pumphrey-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000109::0000109-2"
+    ]
   },
   {
     "question_id": "eval_0138",
@@ -1653,7 +2127,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/osteoporosis-pseudoglioma-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000760::0000760-3"
+    ]
   },
   {
     "question_id": "eval_0139",
@@ -1665,7 +2142,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/22q133-deletion-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0001086::0001086-4"
+    ]
   },
   {
     "question_id": "eval_0140",
@@ -1677,7 +2157,11 @@
     "expected_qtype": "treatment",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/psp/psp.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000832::0000832-5",
+      "6_NINDS_QA::0000242::0000242-2"
+    ]
   },
   {
     "question_id": "eval_0141",
@@ -1689,7 +2173,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/sotos-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000923::0000923-2"
+    ]
   },
   {
     "question_id": "eval_0142",
@@ -1701,7 +2188,11 @@
     "expected_qtype": "inheritance",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10288/neutral-lipid-storage-disease-with-myopathy",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004401::0004401-4",
+      "3_GHR_QA::0000729::0000729-4"
+    ]
   },
   {
     "question_id": "eval_0143",
@@ -1713,7 +2204,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/costeff-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000244::0000244-4"
+    ]
   },
   {
     "question_id": "eval_0144",
@@ -1725,7 +2219,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6944/lymphomatoid-papulosis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003715::0003715-2"
+    ]
   },
   {
     "question_id": "eval_0145",
@@ -1737,7 +2234,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7048/mitochondrial-genetic-disorders",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004086::0004086-1"
+    ]
   },
   {
     "question_id": "eval_0146",
@@ -1749,7 +2249,10 @@
     "expected_qtype": "causes",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10704/pontocerebellar-hypoplasia-type-1",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004971::0004971-3"
+    ]
   },
   {
     "question_id": "eval_0147",
@@ -1761,7 +2264,10 @@
     "expected_qtype": "exams and tests",
     "source": "CDC",
     "url": "http://www.cdc.gov/rabies/",
-    "folder": "9_CDC_QA"
+    "folder": "9_CDC_QA",
+    "relevant_qa_uids": [
+      "9_CDC_QA::0000342::0000342-6"
+    ]
   },
   {
     "question_id": "eval_0148",
@@ -1773,7 +2279,11 @@
     "expected_qtype": "causes",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/wilson-disease/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006449::0006449-3",
+      "5_NIDDK_QA::0000133::0000133-3"
+    ]
   },
   {
     "question_id": "eval_0149",
@@ -1785,7 +2295,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/romano-ward-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000883::0000883-4"
+    ]
   },
   {
     "question_id": "eval_0150",
@@ -1797,7 +2310,15 @@
     "expected_qtype": "susceptibility",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/osteoporosis/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000050::0000050-13",
+      "7_SeniorHealth_QA::0000050::0000050-14",
+      "7_SeniorHealth_QA::0000050::0000050-15",
+      "7_SeniorHealth_QA::0000050::0000050-16",
+      "7_SeniorHealth_QA::0000050::0000050-19",
+      "7_SeniorHealth_QA::0000050::0000050-2"
+    ]
   },
   {
     "question_id": "eval_0151",
@@ -1809,7 +2330,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/metatropic-dysplasia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000648::0000648-2"
+    ]
   },
   {
     "question_id": "eval_0152",
@@ -1821,7 +2345,18 @@
     "expected_qtype": "susceptibility",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/breastcancer/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000027_1::0000027_1-2",
+      "1_CancerGov_QA::0000027_3::0000027_3-2",
+      "1_CancerGov_QA::0000027_4::0000027_4-3",
+      "1_CancerGov_QA::0000027_5::0000027_5-2",
+      "7_SeniorHealth_QA::0000008::0000008-13",
+      "7_SeniorHealth_QA::0000008::0000008-16",
+      "7_SeniorHealth_QA::0000008::0000008-2",
+      "7_SeniorHealth_QA::0000008::0000008-26",
+      "7_SeniorHealth_QA::0000008::0000008-3"
+    ]
   },
   {
     "question_id": "eval_0153",
@@ -1833,7 +2368,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7074/mucopolysaccharidosis-type-iiid",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004161::0004161-2"
+    ]
   },
   {
     "question_id": "eval_0154",
@@ -1845,7 +2383,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/autosomal-dominant-hypocalcemia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000092::0000092-2"
+    ]
   },
   {
     "question_id": "eval_0155",
@@ -1857,7 +2398,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/9681/rhyns-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005370::0005370-1"
+    ]
   },
   {
     "question_id": "eval_0156",
@@ -1869,7 +2413,10 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/progressive-familial-intrahepatic-cholestasis",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000829::0000829-5"
+    ]
   },
   {
     "question_id": "eval_0157",
@@ -1881,7 +2428,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7791/tracheobronchomalacia",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006138::0006138-2"
+    ]
   },
   {
     "question_id": "eval_0158",
@@ -1893,7 +2443,11 @@
     "expected_qtype": "causes",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/proctitis/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000119::0000119-3",
+      "5_NIDDK_QA::0000119::0000119-4"
+    ]
   },
   {
     "question_id": "eval_0159",
@@ -1905,7 +2459,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/hereditary-diffuse-gastric-cancer",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000458::0000458-2"
+    ]
   },
   {
     "question_id": "eval_0160",
@@ -1917,7 +2474,10 @@
     "expected_qtype": "causes",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/9991/ehlers-danlos-syndrome-progeroid-type",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002061::0002061-3"
+    ]
   },
   {
     "question_id": "eval_0161",
@@ -1929,7 +2489,11 @@
     "expected_qtype": "symptoms",
     "source": "NHLBI",
     "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/sarc",
-    "folder": "8_NHLBI_QA_XML"
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005471::0005471-2",
+      "8_NHLBI_QA_XML::0000116::0000116-4"
+    ]
   },
   {
     "question_id": "eval_0162",
@@ -1941,7 +2505,10 @@
     "expected_qtype": "frequency",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/atypical-hemolytic-uremic-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000085::0000085-2"
+    ]
   },
   {
     "question_id": "eval_0163",
@@ -1953,7 +2520,10 @@
     "expected_qtype": "treatment",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/ghosal-hematodiaphyseal-dysplasia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000404::0000404-5"
+    ]
   },
   {
     "question_id": "eval_0164",
@@ -1965,7 +2535,10 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10268/diabetes-mellitus-type-1",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001824::0001824-1"
+    ]
   },
   {
     "question_id": "eval_0165",
@@ -1977,7 +2550,11 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/glucose-6-phosphate-dehydrogenase-deficiency",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002595::0002595-1",
+      "3_GHR_QA::0000413::0000413-1"
+    ]
   },
   {
     "question_id": "eval_0166",
@@ -1989,7 +2566,11 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10766/factor-xiii-deficiency",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002222::0002222-3",
+      "3_GHR_QA::0000338::0000338-5"
+    ]
   },
   {
     "question_id": "eval_0167",
@@ -2001,7 +2582,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/4923/spastic-paraplegia-2",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005709::0005709-1"
+    ]
   },
   {
     "question_id": "eval_0168",
@@ -2013,7 +2597,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/8683/crigler-najjar-syndrome-type-2",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0001666::0001666-3"
+    ]
   },
   {
     "question_id": "eval_0169",
@@ -2025,7 +2612,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/357/gupta-patton-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002699::0002699-1"
+    ]
   },
   {
     "question_id": "eval_0170",
@@ -2037,7 +2627,10 @@
     "expected_qtype": "exams and tests",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7108/multiple-myeloma",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004199::0004199-4"
+    ]
   },
   {
     "question_id": "eval_0171",
@@ -2049,7 +2642,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/rapadilino-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000858::0000858-3"
+    ]
   },
   {
     "question_id": "eval_0172",
@@ -2061,7 +2657,10 @@
     "expected_qtype": "susceptibility",
     "source": "CancerGov",
     "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/patient/child-soft-tissue-treatment-pdq",
-    "folder": "1_CancerGov_QA"
+    "folder": "1_CancerGov_QA",
+    "relevant_qa_uids": [
+      "1_CancerGov_QA::0000003_5::0000003_5-2"
+    ]
   },
   {
     "question_id": "eval_0173",
@@ -2073,7 +2672,12 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/angelman-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000347::0000347-1",
+      "3_GHR_QA::0000058::0000058-1",
+      "6_NINDS_QA::0000021::0000021-1"
+    ]
   },
   {
     "question_id": "eval_0174",
@@ -2085,7 +2689,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2147/epidermolysis-bullosa-simplex-generalized",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0002126::0002126-3"
+    ]
   },
   {
     "question_id": "eval_0175",
@@ -2097,7 +2704,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/2865/hypertrichosis-lanuginosa-congenita",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003027::0003027-2"
+    ]
   },
   {
     "question_id": "eval_0176",
@@ -2109,7 +2719,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/cyclic-neutropenia",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000260::0000260-4"
+    ]
   },
   {
     "question_id": "eval_0177",
@@ -2121,7 +2734,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10650/retinal-cone-dystrophy-4",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0005326::0005326-1"
+    ]
   },
   {
     "question_id": "eval_0178",
@@ -2133,7 +2749,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/osteogenesis-imperfecta",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000757::0000757-3"
+    ]
   },
   {
     "question_id": "eval_0179",
@@ -2145,7 +2764,10 @@
     "expected_qtype": "exams and tests",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/330/neonatal-progeroid-syndrome",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004337::0004337-5"
+    ]
   },
   {
     "question_id": "eval_0180",
@@ -2157,7 +2779,10 @@
     "expected_qtype": "support groups",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/alcoholuse/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000002::0000002-29"
+    ]
   },
   {
     "question_id": "eval_0181",
@@ -2169,7 +2794,11 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7251/ollier-disease",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004532::0004532-1",
+      "3_GHR_QA::0000750::0000750-1"
+    ]
   },
   {
     "question_id": "eval_0182",
@@ -2181,7 +2810,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/allergic-asthma",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000037::0000037-1"
+    ]
   },
   {
     "question_id": "eval_0183",
@@ -2193,7 +2825,10 @@
     "expected_qtype": "treatment",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/sjogrens/sjogrens.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000253::0000253-2"
+    ]
   },
   {
     "question_id": "eval_0184",
@@ -2205,7 +2840,10 @@
     "expected_qtype": "information",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/miyoshi-myopathy",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000666::0000666-1"
+    ]
   },
   {
     "question_id": "eval_0185",
@@ -2217,7 +2855,10 @@
     "expected_qtype": "exams and tests",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/digestive-diseases/menetriers-disease/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000115::0000115-5"
+    ]
   },
   {
     "question_id": "eval_0186",
@@ -2229,7 +2870,10 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/myh9-related-disorder",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000700::0000700-3"
+    ]
   },
   {
     "question_id": "eval_0187",
@@ -2241,7 +2885,11 @@
     "expected_qtype": "inheritance",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/6729/hypokalemic-periodic-paralysis",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003059::0003059-4",
+      "3_GHR_QA::0000505::0000505-4"
+    ]
   },
   {
     "question_id": "eval_0188",
@@ -2253,7 +2901,10 @@
     "expected_qtype": "symptoms",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7379/peyronie-disease",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0004834::0004834-2"
+    ]
   },
   {
     "question_id": "eval_0189",
@@ -2265,7 +2916,12 @@
     "expected_qtype": "information",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/10246/asthma",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0000491::0000491-1",
+      "4_MPlus_Health_Topics_QA::0000065::0000065-1",
+      "8_NHLBI_QA_XML::0000010::0000010-1"
+    ]
   },
   {
     "question_id": "eval_0190",
@@ -2277,7 +2933,10 @@
     "expected_qtype": "treatment",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/iniencephaly/Iniencephaly.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000164::0000164-2"
+    ]
   },
   {
     "question_id": "eval_0191",
@@ -2289,7 +2948,10 @@
     "expected_qtype": "treatment",
     "source": "NINDS",
     "url": "http://www.ninds.nih.gov/disorders/anoxia/anoxia.htm",
-    "folder": "6_NINDS_QA"
+    "folder": "6_NINDS_QA",
+    "relevant_qa_uids": [
+      "6_NINDS_QA::0000023::0000023-2"
+    ]
   },
   {
     "question_id": "eval_0192",
@@ -2301,7 +2963,10 @@
     "expected_qtype": "treatment",
     "source": "GARD",
     "url": "https://rarediseases.info.nih.gov/gard/7803/trichotillomania",
-    "folder": "2_GARD_QA"
+    "folder": "2_GARD_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0006192::0006192-3"
+    ]
   },
   {
     "question_id": "eval_0193",
@@ -2313,7 +2978,11 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/hypokalemic-periodic-paralysis",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "2_GARD_QA::0003059::0003059-4",
+      "3_GHR_QA::0000505::0000505-4"
+    ]
   },
   {
     "question_id": "eval_0194",
@@ -2325,7 +2994,10 @@
     "expected_qtype": "treatment",
     "source": "NHLBI",
     "url": "http://www.nhlbi.nih.gov/health/health-topics/topics/cm",
-    "folder": "8_NHLBI_QA_XML"
+    "folder": "8_NHLBI_QA_XML",
+    "relevant_qa_uids": [
+      "8_NHLBI_QA_XML::0000029::0000029-8"
+    ]
   },
   {
     "question_id": "eval_0195",
@@ -2337,7 +3009,10 @@
     "expected_qtype": "inheritance",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/rapadilino-syndrome",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000858::0000858-4"
+    ]
   },
   {
     "question_id": "eval_0196",
@@ -2349,7 +3024,12 @@
     "expected_qtype": "information",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/urologic-disease/kidney-stones-in-adults/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000203::0000203-1",
+      "5_NIDDK_QA::0000203::0000203-2",
+      "5_NIDDK_QA::0000203::0000203-5"
+    ]
   },
   {
     "question_id": "eval_0197",
@@ -2361,7 +3041,11 @@
     "expected_qtype": "considerations",
     "source": "NIDDK",
     "url": "http://www.niddk.nih.gov/health-information/health-topics/liver-disease/biliary-atresia/Pages/facts.aspx",
-    "folder": "5_NIDDK_QA"
+    "folder": "5_NIDDK_QA",
+    "relevant_qa_uids": [
+      "5_NIDDK_QA::0000183::0000183-10",
+      "5_NIDDK_QA::0000183::0000183-9"
+    ]
   },
   {
     "question_id": "eval_0198",
@@ -2373,7 +3057,11 @@
     "expected_qtype": "treatment",
     "source": "NIHSeniorHealth",
     "url": "http://nihseniorhealth.gov/cataract/toc.html",
-    "folder": "7_SeniorHealth_QA"
+    "folder": "7_SeniorHealth_QA",
+    "relevant_qa_uids": [
+      "7_SeniorHealth_QA::0000009::0000009-15",
+      "7_SeniorHealth_QA::0000009::0000009-5"
+    ]
   },
   {
     "question_id": "eval_0199",
@@ -2385,7 +3073,10 @@
     "expected_qtype": "information",
     "source": "MPlusHealthTopics",
     "url": "https://www.nlm.nih.gov/medlineplus/infectionsandpregnancy.html",
-    "folder": "4_MPlus_Health_Topics_QA"
+    "folder": "4_MPlus_Health_Topics_QA",
+    "relevant_qa_uids": [
+      "4_MPlus_Health_Topics_QA::0000510::0000510-1"
+    ]
   },
   {
     "question_id": "eval_0200",
@@ -2397,6 +3088,9 @@
     "expected_qtype": "genetic changes",
     "source": "GHR",
     "url": "https://ghr.nlm.nih.gov/condition/autoimmune-addison-disease",
-    "folder": "3_GHR_QA"
+    "folder": "3_GHR_QA",
+    "relevant_qa_uids": [
+      "3_GHR_QA::0000087::0000087-3"
+    ]
   }
 ]
