@@ -1,7 +1,0 @@
-run_name,retriever_model_key,top_k,num_questions,exact_qa_hit_at_k,doc_hit_at_k,focus_hit_at_k,exact_qa_mrr,doc_mrr,focus_mrr,avg_num_retrieved
-rag_bge_small_k10,bge_small,10,200,1.0,1.0,1.0,0.9105833333333334,0.9333333333333332,0.9875,10.0
-rag_bge_small_k3,bge_small,3,200,0.98,1.0,1.0,0.9058333333333333,0.9333333333333332,0.9875,3.0
-rag_bge_small_k5,bge_small,5,200,1.0,1.0,1.0,0.9105833333333334,0.9333333333333332,0.9875,5.0
-rag_minilm_k10,minilm,10,200,0.995,1.0,1.0,0.8084484126984127,0.9020833333333332,0.9604166666666667,10.0
-rag_minilm_k3,minilm,3,200,0.915,0.97,0.985,0.7925,0.895,0.9566666666666667,3.0
-rag_minilm_k5,minilm,5,200,0.96,0.995,1.0,0.80325,0.90125,0.9604166666666667,5.0
